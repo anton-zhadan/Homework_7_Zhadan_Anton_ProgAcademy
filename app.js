@@ -53,9 +53,9 @@ game(["программа", "макака", "прекрасный", "оладу�
 
 function CreateNewUser() {
 
-    let firstName = prompt('Введите имя');
-    let lastName = prompt('Введите фамилию');
-    let birthday = prompt('Введите дату рождения', 'Введите, пожалуйста, дату в таком виде - dd.mm.yyyy');
+    let firstName = prompt('Введіть ім`я');
+    let lastName = prompt('Введіть прізвище');
+    let birthday = prompt('Введіть дату народження', 'Введіть, будь ласка, дату в такому вигляді - dd.mm.yyyy');
     
     const outputDate = `${firstName} ${lastName} ${birthday}`;
     console.log(outputDate);
